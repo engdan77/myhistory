@@ -1,0 +1,11 @@
+[project]
+name = "myhistory"
+version = "2026.5.1"
+description = "Small CLI tool for looking up history in Xonsh shell"
+requires-python = ">=3.14"
+dependencies = [
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+myhistory = "myhistory:main"
