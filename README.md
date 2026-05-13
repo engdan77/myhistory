@@ -17,13 +17,7 @@ This tool requires Python 3.14 or later and the `rich` library.
 If you are using `uv`:
 
 ```bash
-uv tool install .
-```
-
-Or using `pip`:
-
-```bash
-pip install .
+uv tool install git+https://github.com/engdan77/myhistory
 ```
 
 ## Usage
